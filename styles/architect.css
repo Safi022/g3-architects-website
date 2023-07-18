@@ -14,7 +14,7 @@
     justify-content: space-between;
     align-items: center;
  }
- .nav-title{
+ .section-title{
     font-size: 45px;
     font-weight: 700;
     color: var(--dark-01, #131313);
@@ -43,7 +43,7 @@
     font-weight: 700;
     color: var(--dark-01, #131313);
 }
-.description{
+.description, .card-title{
     color: var(--dark-03, #727272);
 }
 .btn-primary{
@@ -91,6 +91,30 @@ main{
     color: #FF900E;
     font-weight: 700;
 }
+/* Facts Section */
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    text-align: center;
+    padding: 30px ;
+}
+.card-stats{
+    font-size: 45px;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 5px;
+}
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+
 /* Responsive */
 /* Mobile Devices */
 @media screen and (max-width:576px) {
