@@ -62,6 +62,36 @@
 .banner img{
     width: 100%;
 }
+/* main section */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* teams style */
+.teams-container{
+    display: flex;
+    align-items: center;
+    gap: ;
+}
+.teams-img-container{
+    display: grid;
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+}
+.teams-content{
+    padding: 0px 70px;
+}
+.teams-title{
+    font-size: 45px;
+}
+.ql{
+    color: var(--dark-03, #727272);
+    font-weight: 500;
+}
+.f{
+    color: #FF900E;
+    font-weight: 700;
+}
 /* Responsive */
 /* Mobile Devices */
 @media screen and (max-width:576px) {
