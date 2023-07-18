@@ -47,5 +47,36 @@
     color: var(--dark-03, #727272);
 }
 .btn-primary{
-    
+    border-radius: 0px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+    margin: 30px 0px 42px 0px;
+    cursor: pointer;
+    border: 0;
+}
+.banner img{
+    width: 100%;
+}
+/* Responsive */
+/* Mobile Devices */
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+@media screen and (min-width:577px) and (max-width:960px) {
+    nav {
+        flex-direction: column;
+    }
+    header{
+        padding: 50px;
+    }
 }
